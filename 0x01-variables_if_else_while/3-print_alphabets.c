@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main -prints thye alphabet
- * Returns: always 0 (Success)
+ * main -prints the alphabet in lowercase and uppercase
+ * Return: always 0 (Success)
  */
 
 int main(void)
