@@ -1,26 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main -prints thye alphabet
  * Returns: always 0 (Success)
  */
+
 int main(void)
 {
-	char ch = "a";
-	char CH = "A"
-	/*prints a to z*/
-	while (ch <= "z")
-	{
-		putchar(ch);
-		ch++;
-	}
-	/*prints A to Z*/
-	while (CH <= "Z")
-	{
-		putchar(CH);
-		CH++;
-	}
-	putchar("\n");
+	char low;
 
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
+
+	for (low = 'A'; low <= 'Z'; low++)
+	putchar(low);
+	putchar('\n');
 	return (0);
 }
